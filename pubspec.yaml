@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_parsed_text: ^2.1.0
-  uuid: ^3.0.4
+  flutter_parsed_text: ^2.2.1
+  uuid: ^4.0.0
   intl: ^0.18.0
   transparent_image: ^2.0.0
 
