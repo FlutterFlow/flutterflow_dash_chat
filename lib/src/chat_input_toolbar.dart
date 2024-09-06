@@ -93,12 +93,12 @@ class ChatInputToolbar extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: Directionality(
                     textDirection: textDirection,
-                    child: TextField(
+                    child: TextFormField(
                       focusNode: focusNode,
                       onChanged: (value) {
                         onTextChange!(value);
                       },
-                      onSubmitted: (value) {
+                      onSaved: (value) {
                         if (sendOnEnter) {
                           _sendMessage(context, message);
                         }
